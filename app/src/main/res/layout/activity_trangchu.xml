@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <TextView
+            android:id="@+id/Txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:gravity="center_horizontal"
+            android:text="Trắc nghiệm tiếng Anh"
+            android:textAlignment="center"
+            android:textColor="#FF3333"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/Btnbatdau"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="English Quiz"
+            android:textSize="20dp"
+            android:background="#6600FF"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/Txt1"
+            android:layout_centerHorizontal="true"
+            android:onClick="playSoundDestroy"
+            />
+
+
+        <Button
+            android:id="@+id/Btncorrect"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Correct Word"
+            android:textSize="20dp"
+            android:background="#339933"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/Btnbatdau"
+            android:layout_centerHorizontal="true"
+            android:onClick="playSoundDestroy"
+            />
+
+        <Button
+            android:id="@+id/Btndiemnguoichoi"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Btncorrect"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="#FFCC00"
+            android:text="Điểm người chơi"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/BtnThoat"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Đăng xuất"
+            android:textSize="20dp"
+            android:background="#FF0000"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/Rank"
+            android:layout_centerHorizontal="true"
+            />
+        <Button
+            android:id="@+id/Rank"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="RANK"
+            android:textSize="20dp"
+            android:background="#FFCCFF"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/Btndiemnguoichoi"
+            android:layout_centerHorizontal="true"
+            />
+
+        <ImageView
+            android:id="@+id/imageViewRotate"
+            android:layout_width="109dp"
+            android:layout_height="90dp"
+            android:src="@drawable/icon4" />
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="133dp"
+            android:layout_height="79dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="315dp"
+            app:srcCompat="@drawable/icon7" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="390dp"
+            android:layout_height="134dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginRight="13dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/cute" />
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

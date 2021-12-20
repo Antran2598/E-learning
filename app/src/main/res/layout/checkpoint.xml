@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgapp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textScreen"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textColor="#FFF"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checkpoint Time!"
+        />
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/icboss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textQuestion"
+        android:layout_marginTop="55dp"
+        android:layout_gravity="center"
+        android:textColor="#FFF"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="Well Done! Ready For Next"
+        />
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:id="@+id/textTitle"
+        android:textAllCaps="false"
+        android:text="Continue"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:background="@drawable/bgbtn"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        />
+    <TextView
+        android:id="@+id/textBtnBack"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"
+        android:textColor="#FFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Home "
+        />
+</LinearLayout>

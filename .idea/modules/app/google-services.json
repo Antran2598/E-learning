@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "873524999798",
+    "firebase_url": "https://trac-nghiem-2-69c98.firebaseio.com",
+    "project_id": "trac-nghiem-2-69c98",
+    "storage_bucket": "trac-nghiem-2-69c98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873524999798:android:da53a83c612d0c520c9157",
+        "android_client_info": {
+          "package_name": "son.com.doanandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873524999798-e4e3rs7ad8rqm4sm7s1a25p4sgsc8ghu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "son.com.doanandroid",
+            "certificate_hash": "d44f85d121ce8e06c7b99baf2d9c785d410f6c00"
+          }
+        },
+        {
+          "client_id": "873524999798-9ha59auu2jd8qdko04koaeec8jr45q39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMf5mrl-2VUrWUr5CtqmwfVsNlk6KIoLQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873524999798-9ha59auu2jd8qdko04koaeec8jr45q39.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

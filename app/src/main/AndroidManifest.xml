@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="son.com.doanandroid">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.activity_test"/>
+        <activity android:name=".activity_result"/>
+        <activity android:name=".activity_highscore"/>
+        <activity android:name=".CorrectWord"/>
+        <activity android:name=".Checkpoint"/>
+        <activity android:name=".activity_dangki"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".choncau"/>
+        <activity android:name=".Mucdo.activity_mucdo"/>
+        <activity android:name=".activity_trangchu"/>
+        <activity android:name=".SaveScore"/>
+        <activity android:name=".Activities.activity_test1"/>
+        <activity android:name=".Activities.activity_test2"/>
+        <activity android:name=".Activities.activity_test3"/>
+        <activity android:name=".Activities.activity_test4"/>
+        <activity android:name=".Activities.activity_test5"/>
+        <activity android:name=".Mucdo.activity_mucdo2"/>
+        <activity android:name=".Mucdo.activity_mucdo3"/>
+        <activity android:name=".Mucdo.activity_mucdo4"/>
+        <activity android:name=".Mucdo.activity_mucdo5"/>
+        <activity android:name=".Mucdo.activity_mucdo1"/>
+
+
+
+    </application>
+
+</manifest>

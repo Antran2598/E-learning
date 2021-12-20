@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+        <Button
+            android:id="@+id/Btnde"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Dễ"
+            android:textSize="20dp"
+            android:layout_marginTop="90dp"
+            android:textColor="#222222"
+            android:background="#00BB00 "
+            android:layout_centerHorizontal="true"
+
+            />
+        <Button
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/Btnde"
+            android:id="@+id/Btntrungbinh"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Trung bình"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#222222"
+            android:background="#FFFF66 "
+            />
+        <Button
+            android:id="@+id/Btnkho"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Khó"
+            android:textSize="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/Btntrungbinh"
+            android:layout_centerHorizontal="true"
+
+            android:textColor="#222222"
+            android:background="#FF0000 "
+            />
+        <Button
+            android:id="@+id/Btntrove"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Trở về "
+            android:textSize="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:layout_below="@+id/Btnkho"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
